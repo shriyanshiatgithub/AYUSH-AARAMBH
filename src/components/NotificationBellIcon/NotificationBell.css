@@ -1,0 +1,67 @@
+.notification-bell {
+    position: relative;
+    display: inline-block;
+}
+
+.bell-icon {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #004d40; /* AYUSH Aarambh theme color */
+}
+
+.notifications-dropdown {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.notifications-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #004d40;
+    background-color: #e0f2f1; /* Light green background */
+}
+
+.notifications-header span {
+    font-weight: bold;
+    color: #004d40;
+}
+
+.clear-all-btn {
+    background: none;
+    border: none;
+    color: #d32f2f;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #004d40;
+}
+
+.notification-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #004d40;
+}
+
+.notification-item span {
+    font-size: 12px;
+    color: #7b8a8b;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}

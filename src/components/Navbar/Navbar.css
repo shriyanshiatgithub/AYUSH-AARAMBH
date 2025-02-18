@@ -1,0 +1,32 @@
+nav{
+    width: 100%;
+    /* background: hsl(0, 0%, 0%); */
+    color: rgb(255, 255, 255);
+    padding: 4px 0 ;
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+}
+.logo {
+    width: 180px; 
+    border: 2px solid rgb(13, 88, 28); /* Adjust the width as needed */
+
+}
+
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+.dark-nav{
+    background-color: rgba(73,101,78,255) ;
+    transition: 0.5s;
+    
+}
